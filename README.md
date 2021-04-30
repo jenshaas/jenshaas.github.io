@@ -1,2 +1,2 @@
 # jenshaas.github.io
-change is impossible
+change is not difficult. it is impossible
