@@ -93,6 +93,31 @@ h1, .entry-title, .wp-block-post-title {
 font-size: 1.1rem !important
 }
 
+/* Remove vertical spacing from ALL submenu containers (any depth) */
+  .wp-block-navigation__submenu-container {
+    margin-block: 0 !important;
+    padding-block: 0 !important;
+  }
+
+/* Align mobile submenu items to the right */
+@media (max-width: 768px) {
+  .wp-block-navigation .wp-block-navigation__submenu-container {
+    text-align: right;
+  }
+
+  .wp-block-navigation .wp-block-navigation__submenu-container .wp-block-navigation-item {
+    justify-content: flex-end;
+  }
+
+  .wp-block-navigation .wp-block-navigation__submenu-container a {
+    text-align: right;
+  }
+
+.wp-block-navigation__container {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+}
 :root :where(.wp-block-site-tagline){font-size: var(--wp--preset--font-size--medium);}
 :root :where(.wp-block-site-title){font-weight: 700;letter-spacing: -.5px;}
 :root :where(.wp-block-site-title a:where(:not(.wp-element-button))){text-decoration: none;}
@@ -188,7 +213,97 @@ a{text-decoration-thickness:1px!important;text-underline-offset:.1em}:where(.wp-
 
 <main class="wp-block-group is-layout-flow wp-block-group-is-layout-flow" style="margin-top:0"><div class="entry-content wp-block-post-content has-global-padding is-layout-constrained wp-block-post-content-is-layout-constrained">
 <figure class="wp-block-embed alignwide is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe title="Plato's Republic by Katja Maria Vogt" width="500" height="281" src="https://www.youtube.com/embed/videoseries?list=PLWU9KpeO-5rKd9qEbHRBGFHTHXnpZKOBz" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe title="Plato Republic 01: Virtue Ethics in Book I by Katja Maria Vogt" width="500" height="281" src="https://www.youtube.com/embed/fha38zNm6M8?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<figure class="wp-block-embed alignwide is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="Plato Republic 02: What and How Questions by Katja Maria Vogt" width="500" height="281" src="https://www.youtube.com/embed/lsRrRwjx5_0?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<figure class="wp-block-embed alignwide is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="Plato Republic 03: Three Kinds of Goods by Katja Maria Vogt" width="500" height="281" src="https://www.youtube.com/embed/SA1LB34-2Jw?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<figure class="wp-block-embed alignwide is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Plato Republic 04: Poetry, Ethics, and Theology by Katja Maria Vogt" width="500" height="281" src="https://www.youtube.com/embed/8o9rNAXlHg0?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<figure class="wp-block-embed alignwide is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Plato Republic 05: The Theory of Tripartition by Katja Maria Vogt" width="500" height="281" src="https://www.youtube.com/embed/h0DsTl2We0E?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<figure class="wp-block-embed alignwide is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Plato Republic 06: The Lovers of Sights and Sounds by Katja Maria Vogt" width="500" height="281" src="https://www.youtube.com/embed/WWG9gu7LASY?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<figure class="wp-block-embed alignwide is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Plato Republic 07: The Two Worlds Doctrine by Katja Maria Vogt" width="500" height="281" src="https://www.youtube.com/embed/vqGO81631XE?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<figure class="wp-block-embed alignwide is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Plato Republic 08: Opposite Appearances by Katja Maria Vogt" width="500" height="281" src="https://www.youtube.com/embed/mT6D0WedGIo?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<figure class="wp-block-embed alignwide is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Plato Republic 09: Political Decline by Katja Maria Vogt" width="500" height="281" src="https://www.youtube.com/embed/2xWl5VPJNNk?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<figure class="wp-block-embed alignwide is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Plato Republic 10: The Philosopher Rulers by Katja Maria Vogt" width="500" height="281" src="https://www.youtube.com/embed/ebKb4AwU-2k?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<figure class="wp-block-embed alignwide is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Plato Republic 11: Philosopher Rulers and the Natural World by Katja Maria Vogt" width="500" height="281" src="https://www.youtube.com/embed/iZcbZxOgfoI?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<figure class="wp-block-embed alignwide is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Plato Republic 12: Why Be Just? by Katja Maria Vogt" width="500" height="281" src="https://www.youtube.com/embed/oR_YiwAsKv4?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<figure class="wp-block-embed alignwide is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Plato Republic 13: Two Accounts of the Worst Person by Katja Maria Vogt" width="500" height="281" src="https://www.youtube.com/embed/lQD_vYDKe3o?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<figure class="wp-block-embed alignwide is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Plato Republic 14: Ideal and Non-Ideal Theory by Katja Maria Vogt" width="500" height="281" src="https://www.youtube.com/embed/n1nLUAzglVU?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<figure class="wp-block-embed alignwide is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Plato Republic 15: The Mechanics of Political Decline by Katja Maria Vogt" width="500" height="281" src="https://www.youtube.com/embed/doygNGXUD20?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<figure class="wp-block-embed alignwide is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Plato Republic 16: Oligarchy, Democracy, Tyranny by Katja Maria Vogt" width="500" height="281" src="https://www.youtube.com/embed/BQWK3Lcn_UI?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div></figure>
 </div></main>
 

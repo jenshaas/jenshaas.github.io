@@ -93,6 +93,31 @@ h1, .entry-title, .wp-block-post-title {
 font-size: 1.1rem !important
 }
 
+/* Remove vertical spacing from ALL submenu containers (any depth) */
+  .wp-block-navigation__submenu-container {
+    margin-block: 0 !important;
+    padding-block: 0 !important;
+  }
+
+/* Align mobile submenu items to the right */
+@media (max-width: 768px) {
+  .wp-block-navigation .wp-block-navigation__submenu-container {
+    text-align: right;
+  }
+
+  .wp-block-navigation .wp-block-navigation__submenu-container .wp-block-navigation-item {
+    justify-content: flex-end;
+  }
+
+  .wp-block-navigation .wp-block-navigation__submenu-container a {
+    text-align: right;
+  }
+
+.wp-block-navigation__container {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+}
 :root :where(.wp-block-site-tagline){font-size: var(--wp--preset--font-size--medium);}
 :root :where(.wp-block-site-title){font-weight: 700;letter-spacing: -.5px;}
 :root :where(.wp-block-site-title a:where(:not(.wp-element-button))){text-decoration: none;}
@@ -188,7 +213,103 @@ a{text-decoration-thickness:1px!important;text-underline-offset:.1em}:where(.wp-
 
 <main class="wp-block-group is-layout-flow wp-block-group-is-layout-flow" style="margin-top:0"><div class="entry-content wp-block-post-content has-global-padding is-layout-constrained wp-block-post-content-is-layout-constrained">
 <figure class="wp-block-embed alignwide is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe title="Early Greek Philosophy by Katja Maria Vogt" width="500" height="281" src="https://www.youtube.com/embed/videoseries?list=PLWU9KpeO-5rJNROuD1fNolxIviXJ9Zen6" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe title="Early Greek Philosophy 01: Metaphysics and Natural Philosophy by Katja Maria Vogt" width="500" height="281" src="https://www.youtube.com/embed/VzlaAXbG9Bs?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<figure class="wp-block-embed alignwide is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="Early Greek Philosophy 02: Epistemology with Homer by Katja Maria Vogt" width="500" height="281" src="https://www.youtube.com/embed/OYOYH5ESd1Q?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<figure class="wp-block-embed alignwide is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="Early Greek Philosophy 03: Thales and Causes by Katja Maria Vogt" width="500" height="281" src="https://www.youtube.com/embed/X7Hp5vZnAAY?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<figure class="wp-block-embed alignwide is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Early Greek Philosophy 04: Xenophanes on Knowledge by Katja Maria Vogt" width="500" height="281" src="https://www.youtube.com/embed/Lv_1ZJhhfJM?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<figure class="wp-block-embed alignwide is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Early Greek Philosophy 05: Xenophanes on Animal Minds by Katja Maria Vogt" width="500" height="281" src="https://www.youtube.com/embed/PeOiyPqyw4Y?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<figure class="wp-block-embed alignwide is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Early Greek Philosophy 06: Heraclitus on the Cosmos by Katja Maria Vogt" width="500" height="281" src="https://www.youtube.com/embed/qP_9mOUgP7U?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<figure class="wp-block-embed alignwide is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Early Greek Philosophy 07: Heraclitus on Change and Flux by Katja Maria Vogt" width="500" height="281" src="https://www.youtube.com/embed/wQNqpojvhfk?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<figure class="wp-block-embed alignwide is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Early Greek Philosophy 08: Parmenides on Truth and Opinion by Katja Maria Vogt" width="500" height="281" src="https://www.youtube.com/embed/9wPxg9T2vrU?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<figure class="wp-block-embed alignwide is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Ancient Philosophy Intro 03-1: Parmenides on Mortal Opinion by Katja Maria Vogt" width="500" height="281" src="https://www.youtube.com/embed/AwTfCPeGzzA?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<figure class="wp-block-embed alignwide is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Ancient Philosophy Intro 03-2: The Characteristics of Being by Katja Maria Vogt" width="500" height="281" src="https://www.youtube.com/embed/-GZJtzAoeYQ?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<figure class="wp-block-embed alignwide is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Ancient Philosophy Intro 04-1: Nothing Comes from Nothing by Katja Maria Vogt" width="500" height="281" src="https://www.youtube.com/embed/dPeMEEw9Vog?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<figure class="wp-block-embed alignwide is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Early Greek Philosophy 09: Parmenides on the Way of Opinion by Katja Maria Vogt" width="500" height="281" src="https://www.youtube.com/embed/JW2AmtDPHLc?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<figure class="wp-block-embed alignwide is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Early Greek Philosophy 10: The Many Worlds of Atomism by Katja Maria Vogt" width="500" height="281" src="https://www.youtube.com/embed/z593NMCwkZM?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<figure class="wp-block-embed alignwide is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Ancient Philosophy Intro 04-2: Empty and Void by Katja Maria Vogt" width="500" height="281" src="https://www.youtube.com/embed/V-m8oDscO2k?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<figure class="wp-block-embed alignwide is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Ancient Philosophy Intro 21-1: Democritus and Aristotle by Katja Maria Vogt" width="500" height="281" src="https://www.youtube.com/embed/YhfGyrl97sM?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<figure class="wp-block-embed alignwide is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Early Greek Philosophy 11: Atomism on Sense Perception by Katja Maria Vogt" width="500" height="281" src="https://www.youtube.com/embed/435dpjmsHA0?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<figure class="wp-block-embed alignwide is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Early Greek Philosophy 12: Protagoras' Relativism by Katja Maria Vogt" width="500" height="281" src="https://www.youtube.com/embed/GbKVwYtVjPA?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div></figure>
 </div></main>
 
