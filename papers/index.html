@@ -41,6 +41,7 @@ h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-backg
 .wp-block-file{box-sizing:border-box}.wp-block-file:not(.wp-element-button){font-size:.8em}.wp-block-file.aligncenter{text-align:center}.wp-block-file.alignright{text-align:right}.wp-block-file *+.wp-block-file__button{margin-left:.75em}:where(.wp-block-file){margin-bottom:1.5em}.wp-block-file__embed{margin-bottom:1em}:where(.wp-block-file__button){border-radius:2em;display:inline-block;padding:.5em 1em}:where(.wp-block-file__button):where(a):active,:where(.wp-block-file__button):where(a):focus,:where(.wp-block-file__button):where(a):hover,:where(.wp-block-file__button):where(a):visited{box-shadow:none;color:#fff;opacity:.85;text-decoration:none}
 /*# sourceURL=/wp-includes/blocks/file/style.min.css */
 </style>
+<link rel="stylesheet" id="wp-block-cover-css" href="/wp-includes/blocks/cover/style.min.css?ver=6.9.4" media="all">
 <style id="wp-block-post-content-inline-css">
 .wp-block-post-content{display:flow-root}
 /*# sourceURL=/wp-includes/blocks/post-content/style.min.css */
@@ -52,6 +53,21 @@ h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-backg
 <style id="wp-block-spacer-inline-css">
 .wp-block-spacer{clear:both}
 /*# sourceURL=/wp-includes/blocks/spacer/style.min.css */
+</style>
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
 </style>
 <style id="wp-block-library-inline-css">
 :root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}.has-text-align-center{text-align:center}.has-text-align-left{text-align:left}.has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-wrap:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
@@ -189,31 +205,8 @@ padding-block: 0 !important;
 :root :where(.wp-block-navigation a:where(:not(.wp-element-button)):hover){text-decoration: underline;}
 /*# sourceURL=global-styles-inline-css */
 </style>
-<style id="block-style-variation-styles-inline-css">
-:root :where(.is-style-text-annotation--4 a:where(:not(.wp-element-button))){text-decoration: none;}:root :where(.wp-block-heading.is-style-text-annotation--4){border-radius: 16px;border-color: currentColor;border-width: 1px;border-style: solid;font-size: var(--wp--preset--font-size--small);letter-spacing: normal;line-height: 1.5;padding-top: 0.2rem;padding-right: 0.6rem;padding-bottom: 0.25rem;padding-left: 0.6rem;}:root :where(.wp-block-heading.is-style-text-annotation--4){width: fit-content}
-:root :where(.is-style-text-annotation--5 a:where(:not(.wp-element-button))){text-decoration: none;}:root :where(.wp-block-heading.is-style-text-annotation--5){border-radius: 16px;border-color: currentColor;border-width: 1px;border-style: solid;font-size: var(--wp--preset--font-size--small);letter-spacing: normal;line-height: 1.5;padding-top: 0.2rem;padding-right: 0.6rem;padding-bottom: 0.25rem;padding-left: 0.6rem;}:root :where(.wp-block-heading.is-style-text-annotation--5){width: fit-content}
-:root :where(.is-style-text-annotation--6 a:where(:not(.wp-element-button))){text-decoration: none;}:root :where(.wp-block-heading.is-style-text-annotation--6){border-radius: 16px;border-color: currentColor;border-width: 1px;border-style: solid;font-size: var(--wp--preset--font-size--small);letter-spacing: normal;line-height: 1.5;padding-top: 0.2rem;padding-right: 0.6rem;padding-bottom: 0.25rem;padding-left: 0.6rem;}:root :where(.wp-block-heading.is-style-text-annotation--6){width: fit-content}
-:root :where(.is-style-text-annotation--7 a:where(:not(.wp-element-button))){text-decoration: none;}:root :where(.wp-block-heading.is-style-text-annotation--7){border-radius: 16px;border-color: currentColor;border-width: 1px;border-style: solid;font-size: var(--wp--preset--font-size--small);letter-spacing: normal;line-height: 1.5;padding-top: 0.2rem;padding-right: 0.6rem;padding-bottom: 0.25rem;padding-left: 0.6rem;}:root :where(.wp-block-heading.is-style-text-annotation--7){width: fit-content}
-:root :where(.is-style-text-annotation--8 a:where(:not(.wp-element-button))){text-decoration: none;}:root :where(.wp-block-heading.is-style-text-annotation--8){border-radius: 16px;border-color: currentColor;border-width: 1px;border-style: solid;font-size: var(--wp--preset--font-size--small);letter-spacing: normal;line-height: 1.5;padding-top: 0.2rem;padding-right: 0.6rem;padding-bottom: 0.25rem;padding-left: 0.6rem;}:root :where(.wp-block-heading.is-style-text-annotation--8){width: fit-content}
-/*# sourceURL=block-style-variation-styles-inline-css */
-</style>
-<style id="wp-emoji-styles-inline-css">
-
-	img.wp-smiley, img.emoji {
-		display: inline !important;
-		border: none !important;
-		box-shadow: none !important;
-		height: 1em !important;
-		width: 1em !important;
-		margin: 0 0.07em !important;
-		vertical-align: -0.1em !important;
-		background: none !important;
-		padding: 0 !important;
-	}
-/*# sourceURL=wp-emoji-styles-inline-css */
-</style>
 <style id="core-block-supports-inline-css">
-.wp-container-core-navigation-is-layout-fc306653{justify-content:flex-end;}.wp-container-core-group-is-layout-c8219190{flex-wrap:nowrap;justify-content:space-between;}.wp-container-3{top:calc(0px + var(--wp-admin--admin-bar--position-offset, 0px));position:sticky;z-index:10;}.wp-container-core-group-is-layout-c19476fc > *{margin-block-start:0;margin-block-end:0;}.wp-container-core-group-is-layout-c19476fc > * + *{margin-block-start:var(--wp--preset--spacing--10);margin-block-end:0;}
+.wp-container-core-navigation-is-layout-fc306653{justify-content:flex-end;}.wp-container-core-group-is-layout-c8219190{flex-wrap:nowrap;justify-content:space-between;}.wp-container-3{top:calc(0px + var(--wp-admin--admin-bar--position-offset, 0px));position:sticky;z-index:10;}.wp-elements-c2a99e59f3b1df4f4f49f4db4cf992e2 a:where(:not(.wp-element-button)){color:#eeeeee;}.wp-container-content-69bc4bdf{grid-column:span 1;grid-row:span 1;}@container (max-width: 12rem ){.wp-container-content-69bc4bdf{grid-column:1/-1;}}.wp-elements-63831b002a0dd6f56280892ef71f8c76 a:where(:not(.wp-element-button)){color:#eeeeee;}.wp-elements-af12d196a85de4d3c3328030624ca47c a:where(:not(.wp-element-button)){color:#eeeeee;}.wp-elements-e859d844945e8d5de0153094a8eb74ea a:where(:not(.wp-element-button)){color:#eeeeee;}.wp-elements-3444383e952d621d17cd93a4faeec8c2 a:where(:not(.wp-element-button)){color:#eeeeee;}.wp-elements-8aff6e9d274748f19db22fb817b91a20 a:where(:not(.wp-element-button)){color:#eeeeee;}.wp-elements-b03596028b9f158d5547d9c010c3130a a:where(:not(.wp-element-button)){color:#eeeeee;}.wp-elements-a09aac309de7b2ea6208dd45b6fbb0bf a:where(:not(.wp-element-button)){color:#eeeeee;}.wp-container-core-group-is-layout-ce155fab{flex-direction:column;align-items:center;}.wp-container-core-group-is-layout-c19476fc > *{margin-block-start:0;margin-block-end:0;}.wp-container-core-group-is-layout-c19476fc > * + *{margin-block-start:var(--wp--preset--spacing--10);margin-block-end:0;}
 /*# sourceURL=core-block-supports-inline-css */
 </style>
 <style id="wp-block-template-skip-link-inline-css">
@@ -291,43 +284,47 @@ a{text-decoration-thickness:1px!important;text-underline-offset:.1em}:where(.wp-
 
 
 <main class="wp-block-group is-layout-flow wp-block-group-is-layout-flow" style="margin-top:0"><div class="entry-content wp-block-post-content has-global-padding is-layout-constrained wp-block-post-content-is-layout-constrained">
-<h2 class="wp-block-heading is-style-text-annotation is-style-text-annotation--4" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:var(--wp--preset--spacing--60)">Negligence and Akrasia</h2>
+<div class="wp-block-cover alignwide has-custom-content-position is-position-top-center" style="min-height:958px;aspect-ratio:unset;"><img fetchpriority="high" decoding="async" width="800" height="600" class="wp-block-cover__image-background wp-image-3274 size-full" alt="" src="/wp-content/uploads/header-Los-Angeles-by-jens-haas.jpg" data-object-fit="cover" srcset="/wp-content/uploads/header-Los-Angeles-by-jens-haas.jpg 800w, /wp-content/uploads/header-Los-Angeles-by-jens-haas-300x225.jpg 300w, /wp-content/uploads/header-Los-Angeles-by-jens-haas-768x576.jpg 768w" sizes="(max-width: 800px) 100vw, 800px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#23190d"></span><div class="wp-block-cover__inner-container has-global-padding is-layout-constrained wp-block-cover-is-layout-constrained">
+<div class="wp-block-group is-vertical is-content-justification-center is-layout-flex wp-container-core-group-is-layout-ce155fab wp-block-group-is-layout-flex">
+<h2 class="wp-block-heading">Measure Realism</h2>
 
 
 
-<p>“Negligence and Akrasia,” forthcoming.</p>
+<p>in progress, co-authored with Katja Maria Vogt</p>
 
 
 
-<h2 class="wp-block-heading is-style-text-annotation is-style-text-annotation--5" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:var(--wp--preset--spacing--60)">Good and Evil</h2>
+<h2 class="wp-block-heading has-text-align-center has-text-color has-link-color wp-elements-c2a99e59f3b1df4f4f49f4db4cf992e2 wp-container-content-69bc4bdf" style="color:#eeeeee">Good and Evil</h2>
 
 
 
-<p><a href="https://link.springer.com/article/10.1007/s42048-022-00122-1">“Good and Evil in Virtue Ethics,” co-authored with Katja Maria Vogt, <em>Journal for Ethics and Moral Philosophy</em> 5 (1) (2022): 83-88.</a></p>
+<p class="has-text-color has-link-color wp-elements-63831b002a0dd6f56280892ef71f8c76" style="color:#eeeeee"><a href="https://link.springer.com/article/10.1007/s42048-022-00122-1">“Good and Evil in Virtue Ethics,” co-authored with Katja Maria Vogt, <em>Journal for Ethics and Moral Philosophy</em> 5 (1) (2022): 83-88.</a></p>
 
 
 
-<h2 class="wp-block-heading is-style-text-annotation is-style-text-annotation--6" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:var(--wp--preset--spacing--60)">Incomplete Ignorance</h2>
+<h2 class="wp-block-heading has-text-align-center has-text-color has-link-color wp-elements-af12d196a85de4d3c3328030624ca47c" style="color:#eeeeee">Incomplete Ignorance</h2>
 
 
 
-<div class="wp-block-file"><a id="wp-block-file--media-116e4f8d-3f9e-4e14-803c-af44981204eb" href="/wp-content/uploads/paper-haas-vogt-incomplete-ignorance.pdf">“Incomplete Ignorance,” co-authored with Katja Maria Vogt, <em>Epistemology After Sextus Empiricus</em>, eds. Katja Maria Vogt and Justin Vlasits (OUP, 2020).</a></div>
+<div class="wp-block-file has-link-color wp-elements-e859d844945e8d5de0153094a8eb74ea"><a id="wp-block-file--media-e7aa0b5e-d040-4097-8bd5-4618e5a6f45b" href="/wp-content/uploads/paper-haas-vogt-incomplete-ignorance.pdf">“Incomplete Ignorance,” co-authored with Katja Maria Vogt, <em>Epistemology After Sextus Empiricus</em>, eds. Katja Maria Vogt and Justin Vlasits (OUP, 2020).</a></div>
 
 
 
-<h2 class="wp-block-heading is-style-text-annotation is-style-text-annotation--7" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:var(--wp--preset--spacing--60)">Love and Hatred</h2>
+<h2 class="wp-block-heading has-text-align-center has-text-color has-link-color wp-elements-3444383e952d621d17cd93a4faeec8c2" style="color:#eeeeee">Love and Hatred</h2>
 
 
 
-<div class="wp-block-file"><a id="wp-block-file--media-3dd60267-0fae-47dd-a239-1f6de0884fab" href="/wp-content/uploads/paper-vogt-haas-love-and-hatred.pdf">“Love and Hatred,” co-authored with Katja Maria Vogt, <em>Routledge Handbook of Love in Philosophy</em>, ed. Adrienne Martin (Routledge, 2018), 344-356.</a></div>
+<div class="wp-block-file has-link-color wp-elements-8aff6e9d274748f19db22fb817b91a20"><a id="wp-block-file--media-ea4e1c12-c5c9-4f05-abc5-d6d4ba01bc63" href="/wp-content/uploads/paper-vogt-haas-love-and-hatred.pdf">“Love and Hatred,” co-authored with Katja Maria Vogt, <em>Routledge Handbook of Love in Philosophy</em>, ed. Adrienne Martin (Routledge, 2018), 344-356.</a></div>
 
 
 
-<h2 class="wp-block-heading is-style-text-annotation is-style-text-annotation--8" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:var(--wp--preset--spacing--60)">Ignorance and Investigation</h2>
+<h2 class="wp-block-heading has-text-align-center has-text-color has-link-color wp-elements-b03596028b9f158d5547d9c010c3130a" style="color:#eeeeee">Ignorance and Investigation</h2>
 
 
 
-<div class="wp-block-file"><a id="wp-block-file--media-d548e618-bf3e-4e58-8f4b-ddb4a1f317c6" href="/wp-content/uploads/paper-vogt-haas-ignorance-and-investigation.pdf">“Ignorance and Investigation,” co-authored with Katja Maria Vogt, <em>Routledge International Handbook on Ignorance</em>, eds. Matthias Gross and Linsey McGoey (Routledge, 2015 and 2022), 17-25.</a></div>
+<div class="wp-block-file has-link-color wp-elements-a09aac309de7b2ea6208dd45b6fbb0bf"><a id="wp-block-file--media-4c050e3e-c792-4dc9-af4d-96a294a7deaa" href="/wp-content/uploads/paper-vogt-haas-ignorance-and-investigation.pdf">“Ignorance and Investigation,” co-authored with Katja Maria Vogt, <em>Routledge International Handbook on Ignorance</em>, eds. Matthias Gross and Linsey McGoey (Routledge, 2015 and 2022), 17-25.</a></div>
+</div>
+</div></div>
 </div></main>
 
 
