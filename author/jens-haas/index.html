@@ -139,30 +139,31 @@ font-size: var(--font-size) !important;
  Gutenberg-safe spacing control
 ========================================================= */
 
-/* Force spacing between ALL direct content blocks */
-.wp-block-post-content > * {
-margin-top: 0 !important;
-margin-bottom: 2.5rem !important;
+/* Space above main content */
+main.site-main,
+.wp-site-blocks main {
+    padding-top: 4rem;
 }
 
-/* Section-level spacing:
- headings + cover blocks */
-.wp-block-post-content h2,
-.wp-block-post-content .wp-block-cover,
-.wp-block-post-content .wp-block-gallery,
+/* Force spacing between ALL direct content blocks */
+.wp-block-post-content > * {
+ margin-top: 0 !important;
+ margin-bottom: 4rem !important;
+}
+
+/* Section-level spacing: videos */
 .wp-block-post-content .wp-block-embed {
-margin-top: 4rem !important;
-margin-bottom: 1rem !important;
+margin-bottom: 4rem !important;
 }
 
 /* H2 styling */
 .wp-block-post-content h2 {
-font-weight: 700 !important;
+ font-weight: 700 !important;
 }
 
 /* Optional: slightly better paragraph rhythm */
 .wp-block-post-content p {
-line-height: 1.7;
+ line-height: 1.7;
 }
 
 /* =========================================================
